@@ -1,0 +1,18 @@
+% Auto-generated -- default parameters.
+\begin{table}[t]\centering\small
+\caption{Global default parameters (\texttt{code/legitimacy/config.py}); per-experiment values are in \texttt{scenarios.py}. Values are projected to $[0,1]$; the fairness-in-choice term is off by default.}
+\label{tab:params}
+\begin{tabular}{llll}\toprule
+Symbol & Default & Role & Config key \\ \midrule
+$\mu_1,\mu_2$ & 0.6,0.4 & arm reward means & \texttt{mu} \\
+$\lambda$ & 0.5 & anticipatory weight & \texttt{lam} \\
+$\eta$ & 0.2 & retrospective weight & \texttt{eta} \\
+$\beta,\sigma,a$ & 6.0,1.0,1.0 & DDM choice & \texttt{beta,sigma,a\_thr} \\
+$\alpha$ & 0.2 & private learning rate & \texttt{alpha} \\
+$\nu_F,\nu_R$ & 0.05,0.01 & legitimacy loss / recovery & \texttt{nu\_F,nu\_R} \\
+$\tau^F$ & 0.3 & acceptability threshold & \texttt{tau\_F} \\
+$\phi^-,\phi^+$ & 1.0,0.25 & discomfort weights ($\phi^->\phi^+$) & \texttt{phi\_minus,phi\_plus} \\
+$\psi$ & 0.1 & modal-agent transmission & \texttt{psi} \\
+$L_0$ & 1.0 & initial legitimacy & \texttt{L0} \\
+\bottomrule\end{tabular}
+\end{table}

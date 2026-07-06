@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article and the software."
+title: "CSL2 — Legitimacy-Gated Social Learning"
+abstract: >-
+  Reference implementation and replication package for "Endogenous Legitimacy in
+  Social Learning": an agent-based model in which reward feedback teaches only
+  through an endogenous legitimacy gate, fairness is judged against a
+  transmissible modal-agent benchmark, and legitimacy is a self-reinforcing
+  attitude yielding a behavioural-equilibrium fold with hysteresis.
+type: software
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/<owner>/CSL2"
+keywords:
+  - social learning
+  - fairness
+  - legitimacy
+  - quantal response equilibrium
+  - M-equilibrium
+  - agent-based model
+authors:
+  - given-names: Swann
+    family-names: "<surname>"    # TODO before public release
+preferred-citation:
+  type: article
+  title: "Endogenous Legitimacy in Social Learning: Fairness, Motivated Cognition, and Behavioural Equilibrium"
+  year: 2026
+  authors:
+    - given-names: Swann
+      family-names: "<surname>"  # TODO
